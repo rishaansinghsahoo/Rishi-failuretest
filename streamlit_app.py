@@ -13,7 +13,10 @@ for c in q:
         n2=list2[i]
         i=i+1
         s=n1+n2
-        st.write( "what is the sum of ",n1,"&",n2)
+        st.write("what is the sum of ",n1,"&",n2)
+        st.write(n1)
+        st.write("&")
+        st.write(n2)
         a=st.number_input("enter your answer",step=1)
         if st.form_submit_button("check answer"):
             st.write("your answer:",a)
