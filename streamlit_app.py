@@ -5,12 +5,13 @@ q=[1,2,3,4,5,6,7,8]
 list1=[9084,6656,4420,4540,5540,5320,5590,9850]
 list2=[6543,3421,4480,3322,6644,7709,5436,99990]
 st.write(list1[3])
-
+i=0
 for c in q:
-    st.write(c)
+    st.write(i)
     with st.form(str(c)):
-        n1=9045
-        n2=1043
+        n1=list1[i]
+        n2=list2[i]
+        i=i+1
         s=n1+n2
         st.write( "what is the sum of ",n1,"&",n2)
         a=st.number_input("enter your answer",step=1)
