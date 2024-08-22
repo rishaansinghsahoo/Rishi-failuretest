@@ -1,7 +1,10 @@
 import streamlit as st
 
 st.title("Rishi failure test")
+q=[1,2,3]
 
+for c in q:
+    st.write(c)
 with st.form("question 1"):
     n1=9045
     n2=1043
