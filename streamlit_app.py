@@ -4,7 +4,7 @@ st.title("Rishi failure test")
 q=[1,2,3,4,5,6,7,8]
 list1=[9084,6656,4420,4540,5540,5320,5590,9850]
 list2=[6543,3421,4480,3322,6644,7709,5436,99990]
-st.write(list1[0])
+st.write(list1[3])
 
 for c in q:
     st.write(c)
