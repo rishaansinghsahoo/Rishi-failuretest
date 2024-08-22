@@ -5,7 +5,7 @@ q=[1,2,3,4,5,6,7,8]
 
 for c in q:
     st.write(c)
-    with st.form(c):
+    with st.form(str(c)):
         n1=9045
         n2=1043
         s=n1+n2
